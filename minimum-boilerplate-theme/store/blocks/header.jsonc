@@ -26,9 +26,10 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
+      "header-spacer",
       "vtex.menu@2.x:menu#categories",
+      "header-spacer",
       "search-bar", 
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -36,7 +37,8 @@
 
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "horizontalAlign": "middle"
     },
     "children": ["logo"]
   },
@@ -67,6 +69,14 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+
+  "search-bar":{
+    "props":{
+      "compactMode":true,
+      "displayMode":"search-button",
+      "maxWidth":"245"
     }
   }
 }
