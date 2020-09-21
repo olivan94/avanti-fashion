@@ -3,7 +3,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": ["header-layout.desktop","header-layout.mobile"]
   },
   "header-layout.desktop": {
     "children": [
@@ -26,18 +26,14 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
+      "vtex.menu@2.x:menu#categories",
+      "search-bar", 
       "locale-switcher",
       "login",
       "minicart.v2"
     ]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
+
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
@@ -48,7 +44,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "url": "https://svgshare.com/i/PiQ.svg",
       "width": "80"
     }
   },
@@ -60,10 +56,10 @@
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer",
       "logo",
-      "flex-layout.col#spacer",
       "login",
+      "vtex.menu@2.x:menu#categories",
+      "search-bar",
       "minicart.v2"
     ],
     "props": {
@@ -72,12 +68,5 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "drawer": {
-    "children": []
   }
-
-  //teste
-  //teste2
-  //teste3
 }

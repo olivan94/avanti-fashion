@@ -1,0 +1,14 @@
+{
+    "vtex.menu@2.x:menu#categories":{
+        "children":[
+            "menu-item#woman",
+            "menu-item#man",
+            "menu-item#kids",
+            "menu-item#acessories",
+            "menu-item#sale"
+        ],
+        "props":{
+            "orientation": "horizontal"
+        }
+    }
+}
