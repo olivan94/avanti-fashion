@@ -2,7 +2,8 @@
   "store.home": { 
     "blocks": [
       "image#avantiFashion",
-      "flex-layout.row#info"
+      "flex-layout.row#info",
+      "shelf"
     ]
   },
 
