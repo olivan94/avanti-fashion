@@ -22,7 +22,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "colGap": "8"
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -42,6 +43,7 @@
     },
     "children": ["logo"]
   },
+
   "logo": {
     "props": {
       "title": "Logo",
@@ -50,12 +52,21 @@
       "width": "80"
     }
   },
+
+  "flex-layout.col#spacer":{
+    "props": {
+      "width": "grow"
+    }
+  },
+
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },
+
   "sticky-layout#mobile": {
     "children": ["flex-layout.row#mobile"]
   },
+
   "flex-layout.row#mobile": {
     "children": [
       "logo",
