@@ -6,7 +6,7 @@
     "children": [
       "menu-item#news",
       "menu-item#blackfriday",
-      "menu-item#sale",
+      "menu-item#sal",
       "menu-item#personalization"
     ]
   },
@@ -40,7 +40,7 @@
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#sal": {
     "props": {
       "id": "menu-item-sale",
       "type": "custom",
