@@ -1,3 +1,12 @@
+.flexRow--info {
+  padding: 1.65% 27%;
+  background: #F4EDE7 0% 0%;
+  opacity: 1;
+
+}
+
+/* --------------------------------------------------------------------------------------- */
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;

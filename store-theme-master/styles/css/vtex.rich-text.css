@@ -1,3 +1,14 @@
+.paragraph--info{
+  text-align: left;
+  font: normal normal normal 12px/12px Poppins Light;
+  letter-spacing: 2.4px;
+  color: #17100D;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+/* ------------------------------------------------------------- */
+
 .container--deals {
   color: #ffffff;
   text-align: center;
