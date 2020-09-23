@@ -1,6 +1,8 @@
 {
   "store.home": {
     "blocks": [
+      "image#avantiFashion",
+      "flex-layout.row#info",
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -13,6 +15,67 @@
       "rich-text#link",
       "newsletter"
     ]
+  },
+
+  "image#avantiFashion":{
+    "props":{
+      "src":"https://i.imgur.com/9pKFL9D.png",
+      "maxWidth":"100%"
+    }
+  },
+
+  "flex-layout.row#info": {
+    "children": [
+      "rich-text#info1",
+      "rich-text#info2",
+      "rich-text#info3",
+      "rich-text#info4"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": "info"
+    }
+  },
+
+  "rich-text#info1": {
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Frete grátis",
+      "blockClass": "info"
+    }
+  },
+
+  "rich-text#info2": {
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "1 troca grátis",
+      "blockClass": "info"
+    }
+  },
+
+  "rich-text#info3": {
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Descontos Progressivos",
+      "blockClass": "info"
+    }
+  },
+
+  "rich-text#info4": {
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Até 4x sem juros",
+      "blockClass": "info"
+    }
   },
 
   "shelf#home": {
