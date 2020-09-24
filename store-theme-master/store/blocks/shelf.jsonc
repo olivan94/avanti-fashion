@@ -1,0 +1,31 @@
+{
+    "shelf": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+            "category": 1,
+            "orderBy": "OrderByTopSaleDESC",
+            "paginationDotsVisibility": "desktopOnly",
+            "productList": {
+                "maxItems": 8,
+                "itemsPerPage": 4,
+                "minItemsPerPage": 1,
+                "scroll": "ONE_BY_ONE",
+                "arrows": true,
+                "titleText": "mais vendidos"
+            }
+        }
+    },
+
+    "product-summary.shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-add-to-list-button",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-summary-space",
+            "product-summary-price",
+            "product-identifier.summary",
+            "add-to-cart-button"
+        ]
+    }
+}

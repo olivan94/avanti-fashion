@@ -29,7 +29,9 @@
 
   "sticky-layout#4-desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "sticky-header",
+      "fullWidth": true,
+      "position": "top"
     },
     "children": ["flex-layout.row#4-desktop"]
   },
@@ -38,7 +40,7 @@
     "props": {
       "blockClass": "main-header",
       "horizontalAlign": "center",
-      "verticalAlign": "center",
+      "verticalAlign": "middle",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
@@ -47,6 +49,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
       "search-bar",
       "login",
       "minicart.v2"
@@ -69,7 +72,8 @@
 
   "flex-layout.col#spacer": {
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "blockClass": "menuSpacer"
     }
   },
 

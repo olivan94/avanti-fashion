@@ -3,6 +3,7 @@
     "blocks": [
       "image#avantiFashion",
       "flex-layout.row#info",
+      "shelf",
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -20,7 +21,8 @@
   "image#avantiFashion":{
     "props":{
       "src":"https://i.imgur.com/9pKFL9D.png",
-      "maxWidth":"100%"
+      "maxWidth":"100%",
+      "blockClass":"frontImage"
     }
   },
 

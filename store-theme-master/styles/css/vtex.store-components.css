@@ -1,4 +1,20 @@
-.notificationBarContainer {
+.imageElement--frontImage{
+  /* top: 32px; */
+
+}
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* .autoCompleteOuterContainer {
+  top: 55px;
+  left: 1253px;
+  width: 245px;
+  height: 27px;
+  opacity: 1;
+} */
+
+/* .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
   font-weight: 700;
@@ -114,4 +130,4 @@
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
-}
+} */
